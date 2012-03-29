@@ -1,0 +1,153 @@
+body {
+background: #000;  margin:0; scrollbar-3dlight-color:#222; scrollbar-arrow-color:#FFF; scrollbar-base-color:#000; scrollbar-darkshadow-color:#222; scrollbar-face-color:#000; scrollbar-highlight-color:#000; scrollbar-shadow-color:#000; }
+	  
+#outer {
+position:absolute; top:50%; left:0px; width:100%; height:1px; }
+
+#inner {
+margin-left:-300px; position:absolute; top:-150px; left:50%; width:800px; height:300px; z-index:10;}
+	 
+#logo {
+z-index:1; margin-left:-350px; position:absolute; left:47%; width:800px; height:400px; background-image:url('images/yarpLogoPipe.png'); background-repeat: no-repeat; background-position: center 60% ;}
+
+div#survey {
+font-size:35px; left:335px; top:-40px;}
+
+div#more {
+font-size:30px; left:465px; top:-34px; }
+
+.bgtext {
+font-size:60px; position:absolute; top:115px; left:-110px; right:-80px; }
+
+.bgtext2 {
+font-size:18px; position:absolute; top:175px; left:-98px; right:-80px; }
+
+.bgtext, .bgtext2, .footertext {
+color:#555; font-family:verdana, helvetica, sans serif; }
+
+survey span->a {
+
+}
+		 
+.footertext {
+font-size:12px; position:absolute; top:320px; text-align:center; width:500px; }
+
+div#nostalgia, div#presentation, div#download, div#documentation, div#docOnline, div#docZIP, div#docPDF, div#wiki, div#people, div#mailingLists, 
+div#bug, div#paper, div#bazaar, div#yarp, div#survey, div#more, div#sourceforge
+{ color:#222222; font-family:verdana, helvetica, sans serif; position:absolute; }
+
+div#nostalgia {
+font-size:30px; top:-10px; left:350px; }
+
+div#presentation {
+font-size:35px;	top:-90px; left:480px; }
+
+div#download {
+font-size:29px; top:-110px; left:250px; }
+		
+div#documentation {
+font-size:30px;	top:46px; left:-60px; }
+		
+div#docOnline {
+font-size:20px;	top:78px; left:-40px; }
+
+div#docPDF {
+font-size:20px; top:78px; left:100px; }
+
+div#docZIP {
+font-size:20px; top:78px; left:200px; }
+
+div#wiki {
+font-size:35px; top:60px; left:450px; }
+		
+div#people {
+font-size:50px; top:200px; left:45px; }
+		
+div#mailingLists {
+font-size:39px; top:200px; left:260px; }
+
+div#bug {
+font-size: 30px; top:275px; left:-100px; }
+		
+div#paper {
+font-size:45px;	top:-30px; left:100px; }
+		
+div#bazaar {
+font-size:24px;	top:274px; left:330px; }
+
+div#sourceforge {
+font-size:35px; top:320px; left:150px; }
+
+div#yarp {
+font-size:20px;	top:-100px; left:-125px; }
+/* background-image: url("images/yarpLogoPipe.png"); background-repeat:no-repeat;background-position: center center;}		*/
+
+div#nostalgia a:hover span { top:-5px; left:0px; width:;}
+
+div#presentation a:hover span { top:-5px; left:0px; width:;}
+
+div#download a:hover span { top:-3px; left:0px; width:;}
+
+div#documentation a:hover span { top:11px; left:0px; width:;}
+						
+div#wiki a:hover span { top:-4px; left:0px; width:;}
+
+div#people a:hover span { top:-2px; left:0px; width:;}
+		
+div#mailingLists a:hover span { top:0px; left:0px; width:;}
+						
+div#paper a:hover span { top:0px; left:0px; width:;}
+						
+div#bazaar a:hover span { top:-4px; left:0px; width:;}
+
+div#sourceforge a:hover span {top:0px; left:0px; width:;}
+
+div#yarp a:hover span { top:-10px; left:0px; width:;}
+
+div#inner a:hover, div#inner2 a:hover { background:none; cursor:crosshair; }
+
+div#inner a span {display:none; }
+
+div#inner a:visited span {display:none; }
+
+div#inner a {text-decoration:none; color:white; }
+
+div#inner a:hover span {display:block; position:relative; background:none; font-size:14px; }
+						
+div#inner a:link, div#inner a:visited {text-decoration:none;}
+
+div#inner a:hover {text-decoration:none;}
+
+div#content {
+position:absolute; top:-50px; left:-70px; width:635px; height:400px; overflow:auto; font-family:verdana,helvetica,sans serif; font-size:13px; color:white; text-align:justify; margin:3px; }
+
+div#inner div#content a:hover {text-decoration:underline;}
+
+div#close, div#top {
+width:17px; height:17px; background:none; text-align:center; font-family:verdana, helvetica, sans serif; font-weight:bold; font-size:12px; border: 1px solid #222; }
+
+div#top {position:relative; left:573px; top:319px; }
+
+div#close {position:relative; left:573px; top:-47px; }
+		   
+div#inner div#close a:link, div#inner div#top a:link {color:#fff; cursor:default;}
+div#inner div#close a:visited, div#inner div#top a:visited {color:#fff; cursor:default;}
+div#inner div#close a:hover, div#inner div#top a:hover {color:#fff; cursor:default;}
+
+div#urltext {font-family:verdana, helvetica, sans serif; font-size:30px; position:absolute; top:-87px; left:-69px;} 
+
+div#urltext, div#inner div#content a:link, div#inner div#content a:visited, div#inner a:hover, div#inner a:hover span {color:#ff7c11;}
+			 
+div#content div#titlebar {border: 1px solid #222222; background:#000; font-weight:normal; color:#ff7c11; }
+				
+div#content {margin-left:0; padding-right:8px;}
+			 
+.titleblock {
+font-family:verdana, helvetica, sans serif; font-size:12px; color:#ff7c11; font-weight:; margin-right:6px; margin-top:10px; margin-bottom:10px;	margin-left:2px; border:1px solid #222;	padding:4px }
+				
+.titleblock span {color:#ff7c11}
+
+#urltext a:link {color:#444}
+#urltext a:visited {color:#444}
+#urltext a:hover {color:#444}
+#urltext a:active {color:#444}
